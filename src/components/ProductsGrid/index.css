@@ -1,0 +1,31 @@
+.app-container{ 
+   
+    background-color: aliceblue;
+    padding:10px;
+    margin: 0px;
+
+}
+.heading{
+    color: blue;
+    text-decoration: underline;
+    text-align: center;
+    font-family: Arial;
+
+}
+.products-display-container{
+    list-style-type: none;
+    background-color: antiquewhite;
+    border: none;
+    border-radius: 12px;
+    margin: 10px;    
+    width: 1200px;    
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    overflow-y: auto;
+    
+    
+
+}
